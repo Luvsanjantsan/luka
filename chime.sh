@@ -1,4 +1,4 @@
-
+#!/bin/bash
 $minut = date + "%M"
 if [$minut -ge 20 && -le 40]
 then 
