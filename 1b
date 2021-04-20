@@ -1,0 +1,1 @@
+mysqldump -u awkologi -p compbiol annotation > annotation.tab
