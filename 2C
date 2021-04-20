@@ -1,0 +1,4 @@
+SELECT Distinct m.LastName, m.FirstName, m.MemberID
+FROM Member m INNER Join Entry e 
+ON m.MemberId = e.MemberID WHERE m.MemberID
+NOT IN (SELECT DISTINCT e.MemberID FROM Entry e WHERE e.Year = 2013);
