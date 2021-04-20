@@ -1,0 +1,1 @@
+SELECT LastName, FirstName, MemberID FROM Member WHERE JoinDate > '2012-12-31' AND JoinDate < '2014-01-01';
